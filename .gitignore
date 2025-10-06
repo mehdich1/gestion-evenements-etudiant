@@ -1,0 +1,12 @@
+# OS / éditeurs
+.DS_Store
+Thumbs.db
+*.log
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Backup files
+*.bak
+*.tmp
