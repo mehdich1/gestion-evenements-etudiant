@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+* {
+    scroll-behavior: smooth;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#00001b00, #00010700),url(est.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    filter: contrast(90%) brightness(90%);
+} 
+body{
+    font-family: serif;
+}
+nav{
+    background: #003120;
+    height: 70px;
+    width: 100%;
+}
+a.logo{
+    color: white;
+    font-size: 40px;
+    line-height: 80px;
+    padding: 0 50px;
+    font-weight: bold;
+    box-shadow: none;
+}
+.logo:hover{
+    background-color: #003120;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active, a:hover{
+    background: #295a35;
+    transition: .5s;
+}
+.text-box{
+    width: 100%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box{
+    font-size: 25px;
+}
+.text-box a.h1{
+    margin: 10px 0 40px;
+    font-size: 50px;
+    color: #ffffff;
+    position: absolute;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 0px solid white;
+    padding: 12px 34px;
+    font-size: 25px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 15px;
+    background-color: #295226;
+}
+.hero-btn:hover{
+    border: 1px solid #003120;
+    background: #003120;
+    transition: .5s; 
+}
+.evenements{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.evenements img{
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p1{
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.row2{
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: space-around;
+}
+.event-col{
+    flex-basis: 31%;
+    background: #e6f3dc;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: .5s;
+    cursor: pointer;
+}
+h3{
+    font-size: 23px;
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.event-col:hover{
+    box-shadow: 0 0 20px 0px #295a35;
+}
+#contact{
+    padding-top: 2%;
+}
+.formulaire{
+    background-color: #e6f3dc;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 40px auto ;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    transition: .3s;
+}
+.formulaire:hover{
+    box-shadow: 0 0 20px 0px #295a35;
+}
+.formulaire h2{
+    font-size: 35px;
+    text-align: center;
+    color: #333;
+    font-family: serif;
+    font-weight: 1000;
+    margin-bottom: 10px;
+}
+label{
+    margin-top: 15px;
+    font-weight: 700;
+    color: #444;
+}
+input[type="text"], textarea{
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Franklin'
+}
+.sexe{
+    display: flex;
+    gap: 40px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+textarea{
+    resize: vertical;
+    align-items: flex-end;
+    margin-top: 10px;
+    width: 100%;
+}
+button{
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #003120;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 92.4%;
+}
+button:hover{
+    background-color: #295a35;
+    transition: .3s;
+}
+.footer{
+    background-color: #003120;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    filter: contrast(90%) brightness(90%);
+}
+.footer h4{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: white;
+}
+.icons i {
+    color: white;
+    margin: 0 10px;
+    cursor: pointer;
+    padding: 20px 0;
+    background-color: #003120;
+    margin-top: -5%;
+    margin-bottom: 2%;
+}

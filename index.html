@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="mohamed al mahdi ech-chentili">
+    <meta http-equiv="" content="">
+    <title>Mini-Projet Dev Web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+
+            <label class="logo" id="home"><a href="index.html" class="logo">EST Events</a></label>
+
+            <ul>
+                <li><a class="active" href="#home">Acceuil</a></li>
+                <li><a href="#events">Evenements</a></li>
+                <li><a href="#formulaire">Proposer un evenement</a></li>
+                <li><a href="#a propos">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            
+        </nav>
+        </section>
+    <main>
+            <section id="Acceuil">
+            <div class="text-box">
+            <h1>Bienvenue sur EST Events - Votre Partenaire Événementiel à l'Est Salé.</h1>
+            <p>Que vous soyez organisateur, participant ou simple curieux, cette plateforme vous permet d'explorer,
+                <br>de planifier et de suivre tous les événements de l'École Supérieure de Technologie de Salé.</p>
+                <ol>
+                    <p><strong><br><br>Nos services : <br></strong></t1>
+                    <li>Planification et suivi des événements</li>
+                    <li>Réservation d'espaces et de services</li>
+                    <li>Communication et promotion personnalisées</li>
+                </ol>
+                <a href="#events" class="hero-btn">Cliquer pour en savoir plus</a>
+            </div>
+            </section>
+    </main>
+
+    <section class="evenements" id="events">
+
+        <h1>Les Evenements Offerts Par L'ESTS :</h1>
+        <p1>L'ESTS organise tout au long de l'année des événements pour enrichir ton parcours, t'épanouir et vivre des moments inoubliables. 
+            Entre apprentissage, détente et partage, il y en a pour tous les goûts !</p1>
+
+        <div class="row">
+
+            <div class="event-col">
+                <img src="emc4_ji.png">
+                <h3>Journée d'intégration EMC4<br>Bienvenue à l'EST Salé !</h3>
+                <p1>Rejoignez-nous pour une journée d'intégration inoubliable !
+                    Venez découvrir notre club, rencontrer de nouvelles personnes et commencer l'année dans la bonne humeur.</p1>
+            </div>
+            
+            <div class="event-col">
+                <img src="emc4_depday.png">
+                <h3>EMC4 célèbre l'indépendance avec fierté</h3>
+                <p1>En cette journée d'indépendance, célébrons notre histoire et regardons ensemble vers un avenir de progrès et de succès. 
+                    Emc4 vous souhaite une fête remplie de fierté et d'unité.</p1>
+            </div>
+
+            <div class="event-col">
+                <img src="emc4_sang.png">
+                <h3>Journée de don de sang<br>avec EMC4</h3>
+                <p1>Le club Emc4 invite toute la communauté étudiante à participer à notre journée de don de sang à l'école! Ensemble, 
+                    donnons le meilleur de nous-mêmes pour sauver des vies. Une simple action peut avoir un impact immense.</p1>
+            </div>
+
+        </div>
+
+        <div class="row2">
+
+            <div class="event-col">
+                <img src="bds_match.jpg">
+                <h3>Une rentrée pleine d'énergie avec le BDS</h3>
+                <p1>Nous sommes ravis de commencer cette nouvelle année en découvrant les nombreux talents de notre communauté à travers 
+                    ces matchs amicaux pleins d'enthousiasme !</p1>
+            </div>
+            
+            <div class="event-col">
+                <img src="bds_congret.png">
+                <h3>Le BDS à l'honneur au 5ᵉ Congrès International des Sciences du Sport</h3>
+                <p1>Nous avons l'immense privilège de représenter les valeurs et l'engagement prenne de notre école à travers la participation et 
+                    l'organisation de la 5ème édition du congrès international des sciences du sport qui englobe plusieurs sujets visant l'évolution
+                    du sport à l'échelle nationale et internationale.</p1>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="formulaire" id="formulaire">
+
+        <h2>Proposer un événement</h2>
+        <form action="form.php" method="post">
+
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="prenom"><br>Prénom :</label>
+            <input type="text" name="prenom" id="prenom" required>
+
+            <label><br>Sexe :</label>
+            <div class="sexe">
+                <label><input type="radio" name="sexe" value="homme" required> Homme</label>
+                <label><input type="radio" name="sexe" value="femme"> Femme</label>
+            </div>
+
+            <div>
+                <label for="idee">Votre idée d'événement :<br></label>
+            <textarea name="idee" id="idee" rows="9" placeholder="Décrivez votre idée ici..." required></textarea>
+
+            <button type="submit">Envoyer</button>
+            </div>
+
+        </form>
+
+    </section>
+
+    <section class="footer">
+
+        <h4 id="a propos">À Propos de Nous</h4>
+        <p>Bienvenue sur notre plateforme de gestion des événements dédiée à l'Est Salé.<br> 
+            Notre mission est de faciliter l'organisation, la planification et la promotion d'événements en offrant des outils intuitifs<br>
+            et performants. Que vous soyez un particulier, une entreprise ou une association, nous mettons à votre disposition une<br>
+            solution complète pour garantir la réussite de vos événements.
+            
+            <br>Nous croyons en la puissance des rencontres et en l'importance d'une gestion fluide et efficace.<br>
+            Rejoignez-nous et faites de chaque événement un moment inoubliable !</p>
+
+            <div class="icons">
+                <h4 id="contact">Contacts</h4>
+                <a title="facebook.com" href="https://www.facebook.com/khrchefkhrchef" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a title="x.com" href="https://x.com/mehdixhh" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a title="instagram.com" href="https://www.instagram.com/mehdichh_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a title="linkedIn.com" href="https://www.linkedin.com/in/mohamed-al-mahdi-ech-chentili-154a72336/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a title="gmail.com" href="mailto:mehdichentili@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            </div>
+
+            <p>&copy; All Rights Reserved 2025<br> Fait par Mohamed Al Mahdi ECH-CHENTILI</p>
+            
+    </section>
+</body>
+</html>
